@@ -13,6 +13,6 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_gravity="center"
-        app:srcCompat="@drawable/lane_straight"/>
+        app:srcCompat="@drawable/ic_arrow_0"/>
 
 </RelativeLayout>

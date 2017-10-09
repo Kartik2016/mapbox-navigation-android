@@ -69,7 +69,7 @@ class NavigationNotification {
       .setTicker("Navigation notification")
       .setContent(remoteViews)
       .setCustomBigContentView(remoteViewsBig)
-      .setSmallIcon(R.drawable.ic_navigation)
+      .setSmallIcon(R.drawable.ic_starting)
       .setContentIntent(PendingIntent.getActivity(context, 0,
         new Intent(context, NavigationService.class), 0));
 

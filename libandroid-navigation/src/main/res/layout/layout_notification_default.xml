@@ -13,7 +13,7 @@
         android:layout_width="64dp"
         android:layout_height="match_parent"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_maneuver_arrive"
+        android:src="@drawable/ic_arrive"
         android:tint="#ffffff"/>
 
     <LinearLayout

@@ -35,154 +35,154 @@ class ManeuverMap {
   ManeuverMap() {
     maneuverMap = new HashMap<>();
     maneuverMap.put(STEP_MANEUVER_TYPE_TURN + STEP_MANEUVER_MODIFIER_UTURN,
-      R.drawable.ic_maneuver_turn_180);
+      R.drawable.ic_arrow_180_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_CONTINUE + STEP_MANEUVER_MODIFIER_UTURN,
-      R.drawable.ic_maneuver_turn_180);
+      R.drawable.ic_arrow_180_left);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_CONTINUE + STEP_MANEUVER_MODIFIER_STRAIGHT,
-      R.drawable.ic_maneuver_turn_0);
+      R.drawable.ic_arrow_0);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_ARRIVE + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_arrive_left);
+      R.drawable.ic_arrive_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_ARRIVE + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_arrive_right);
+      R.drawable.ic_arrive_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_ARRIVE,
-      R.drawable.ic_maneuver_arrive);
+      R.drawable.ic_arrive);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_DEPART + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_depart_left);
+      R.drawable.ic_depart_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_DEPART + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_depart_right);
-    maneuverMap.put(STEP_MANEUVER_TYPE_DEPART, R.drawable.ic_maneuver_depart);
+      R.drawable.ic_depart_right);
+    maneuverMap.put(STEP_MANEUVER_TYPE_DEPART, R.drawable.ic_depart);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_TURN + STEP_MANEUVER_MODIFIER_SHARP_RIGHT,
-      R.drawable.ic_maneuver_turn_75);
+      R.drawable.ic_arrow_75_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_TURN + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_turn_45);
+      R.drawable.ic_arrow_45_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_TURN + STEP_MANEUVER_MODIFIER_SLIGHT_RIGHT,
-      R.drawable.ic_maneuver_turn_30);
+      R.drawable.ic_arrow_30_right);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_TURN + STEP_MANEUVER_MODIFIER_SHARP_LEFT,
-      R.drawable.ic_maneuver_turn_75_left);
+      R.drawable.ic_arrow_75_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_TURN + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_turn_45_left);
+      R.drawable.ic_arrow_45_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_TURN + STEP_MANEUVER_MODIFIER_SLIGHT_LEFT,
-      R.drawable.ic_maneuver_turn_30_left);
+      R.drawable.ic_arrow_30_left);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_MERGE + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_merge_left);
+      R.drawable.ic_merge_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_MERGE + STEP_MANEUVER_MODIFIER_SLIGHT_LEFT,
-      R.drawable.ic_maneuver_merge_left);
+      R.drawable.ic_merge_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_MERGE + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_merge_right);
+      R.drawable.ic_merge_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_MERGE + STEP_MANEUVER_MODIFIER_SLIGHT_RIGHT,
-      R.drawable.ic_maneuver_merge_right);
+      R.drawable.ic_merge_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_MERGE + STEP_MANEUVER_MODIFIER_STRAIGHT,
-      R.drawable.ic_maneuver_turn_0);
+      R.drawable.ic_arrow_0);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_ON_RAMP + STEP_MANEUVER_MODIFIER_SHARP_LEFT,
-      R.drawable.ic_maneuver_turn_75_left);
+      R.drawable.ic_arrow_75_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_ON_RAMP + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_turn_45_left);
+      R.drawable.ic_arrow_45_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_ON_RAMP + STEP_MANEUVER_MODIFIER_SLIGHT_LEFT,
-      R.drawable.ic_maneuver_turn_30_left);
+      R.drawable.ic_arrow_30_left);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_ON_RAMP + STEP_MANEUVER_MODIFIER_SHARP_RIGHT,
-      R.drawable.ic_maneuver_turn_75);
+      R.drawable.ic_arrow_75_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_ON_RAMP + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_turn_45);
+      R.drawable.ic_arrow_45_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_ON_RAMP + STEP_MANEUVER_MODIFIER_SLIGHT_RIGHT,
-      R.drawable.ic_maneuver_turn_30);
+      R.drawable.ic_arrow_30_right);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_OFF_RAMP + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_off_ramp_left);
+      R.drawable.ic_off_ramp_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_OFF_RAMP + STEP_MANEUVER_MODIFIER_SLIGHT_LEFT,
-      R.drawable.ic_maneuver_off_ramp_slight_left);
+      R.drawable.ic_off_ramp_left);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_OFF_RAMP + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_off_ramp_right);
+      R.drawable.ic_off_ramp_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_OFF_RAMP + STEP_MANEUVER_MODIFIER_SLIGHT_RIGHT,
-      R.drawable.ic_maneuver_off_ramp_slight_right);
+      R.drawable.ic_off_ramp_right);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_FORK + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_fork_left);
+      R.drawable.ic_fork_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_FORK + STEP_MANEUVER_MODIFIER_SLIGHT_LEFT,
-      R.drawable.ic_maneuver_fork_slight_left);
+      R.drawable.ic_fork_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_FORK + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_fork_right);
+      R.drawable.ic_fork_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_FORK + STEP_MANEUVER_MODIFIER_SLIGHT_RIGHT,
-      R.drawable.ic_maneuver_fork_slight_right);
+      R.drawable.ic_fork_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_FORK + STEP_MANEUVER_MODIFIER_STRAIGHT,
-      R.drawable.ic_maneuver_fork_straight);
-    maneuverMap.put(STEP_MANEUVER_TYPE_FORK, R.drawable.ic_maneuver_fork);
+      R.drawable.ic_arrow_0);
+    maneuverMap.put(STEP_MANEUVER_TYPE_FORK, R.drawable.ic_fork);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_END_OF_ROAD + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_end_of_road_left);
+      R.drawable.ic_arrow_45_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_END_OF_ROAD + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_end_of_road_right);
+      R.drawable.ic_arrow_45_right);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_ROUNDABOUT + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_roundabout_left);
+      R.drawable.ic_roundabout_275);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROUNDABOUT + STEP_MANEUVER_MODIFIER_SHARP_LEFT,
-      R.drawable.ic_maneuver_roundabout_sharp_left);
+      R.drawable.ic_roundabout_315);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROUNDABOUT + STEP_MANEUVER_MODIFIER_SLIGHT_LEFT,
-      R.drawable.ic_maneuver_roundabout_slight_left);
+      R.drawable.ic_roundabout_slight_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROUNDABOUT + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_roundabout_right);
+      R.drawable.ic_roundabout_90);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROUNDABOUT + STEP_MANEUVER_MODIFIER_SHARP_RIGHT,
-      R.drawable.ic_maneuver_roundabout_sharp_right);
+      R.drawable.ic_roundabout_45);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROUNDABOUT + STEP_MANEUVER_MODIFIER_SLIGHT_RIGHT,
-      R.drawable.ic_maneuver_roundabout_slight_right);
+      R.drawable.ic_roundabout_slight_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROUNDABOUT + STEP_MANEUVER_MODIFIER_STRAIGHT,
-      R.drawable.ic_maneuver_roundabout_straight);
-    maneuverMap.put(STEP_MANEUVER_TYPE_ROUNDABOUT, R.drawable.ic_maneuver_roundabout);
+      R.drawable.ic_roundabout_180);
+    maneuverMap.put(STEP_MANEUVER_TYPE_ROUNDABOUT, R.drawable.ic_roundabout_90);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_ROTARY + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_roundabout_left);
+      R.drawable.ic_roundabout_275);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROTARY + STEP_MANEUVER_MODIFIER_SHARP_LEFT,
-      R.drawable.ic_maneuver_roundabout_sharp_left);
+      R.drawable.ic_roundabout_315);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROTARY + STEP_MANEUVER_MODIFIER_SLIGHT_LEFT,
-      R.drawable.ic_maneuver_roundabout_slight_left);
+      R.drawable.ic_roundabout_slight_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROTARY + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_roundabout_right);
+      R.drawable.ic_roundabout_90);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROTARY + STEP_MANEUVER_MODIFIER_SHARP_RIGHT,
-      R.drawable.ic_maneuver_roundabout_sharp_right);
+      R.drawable.ic_roundabout_45);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROTARY + STEP_MANEUVER_MODIFIER_SLIGHT_RIGHT,
-      R.drawable.ic_maneuver_roundabout_slight_right);
+      R.drawable.ic_roundabout_slight_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROTARY + STEP_MANEUVER_MODIFIER_STRAIGHT,
-      R.drawable.ic_maneuver_roundabout_straight);
-    maneuverMap.put(STEP_MANEUVER_TYPE_ROTARY, R.drawable.ic_maneuver_roundabout);
+      R.drawable.ic_roundabout_180);
+    maneuverMap.put(STEP_MANEUVER_TYPE_ROTARY, R.drawable.ic_roundabout_90);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_ROUNDABOUT_TURN + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_turn_45_left);
+      R.drawable.ic_roundabout_275);
     maneuverMap.put(STEP_MANEUVER_TYPE_ROUNDABOUT_TURN + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_turn_45);
+      R.drawable.ic_roundabout_90);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_NOTIFICATION + STEP_MANEUVER_MODIFIER_LEFT,
-      R.drawable.ic_maneuver_turn_45_left);
+      R.drawable.ic_arrow_45_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_NOTIFICATION + STEP_MANEUVER_MODIFIER_SHARP_LEFT,
-      R.drawable.ic_maneuver_turn_75_left);
+      R.drawable.ic_arrow_75_left);
     maneuverMap.put(STEP_MANEUVER_TYPE_NOTIFICATION + STEP_MANEUVER_MODIFIER_SLIGHT_LEFT,
-      R.drawable.ic_maneuver_turn_30_left);
+      R.drawable.ic_arrow_30_left);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_NOTIFICATION + STEP_MANEUVER_MODIFIER_RIGHT,
-      R.drawable.ic_maneuver_turn_45);
+      R.drawable.ic_arrow_45_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_NOTIFICATION + STEP_MANEUVER_MODIFIER_SHARP_RIGHT,
-      R.drawable.ic_maneuver_turn_75);
+      R.drawable.ic_arrow_75_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_NOTIFICATION + STEP_MANEUVER_MODIFIER_SLIGHT_RIGHT,
-      R.drawable.ic_maneuver_turn_30);
+      R.drawable.ic_arrow_30_right);
     maneuverMap.put(STEP_MANEUVER_TYPE_NOTIFICATION + STEP_MANEUVER_MODIFIER_STRAIGHT,
-      R.drawable.ic_maneuver_turn_0);
+      R.drawable.ic_arrow_0);
 
     maneuverMap.put(STEP_MANEUVER_TYPE_NEW_NAME + STEP_MANEUVER_MODIFIER_STRAIGHT,
-      R.drawable.ic_maneuver_turn_0);
+      R.drawable.ic_arrow_0);
   }
 
   public int getManeuverResource(String maneuver) {
     if (maneuverMap.get(maneuver) != null) {
       return maneuverMap.get(maneuver);
     } else {
-      return R.drawable.ic_maneuver_turn_0;
+      return R.drawable.ic_arrow_0;
     }
   }
 }
